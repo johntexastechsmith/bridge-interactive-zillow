@@ -1,0 +1,25 @@
+{
+    "name": "johntexastechsmith/bridge-interactive-zillow",
+    "type": "library",
+    "description": "Zillow API through Bridge Interactive Client",
+    "homepage": "https://github.com/johntexastechsmith/bridge-interactive-zillow",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Smith",
+            "email": "john.texastech.smith@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "symfony/dotenv": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "JohnTexasTechSmith\\BridgeInteractiveZillow\\": "src/JohnTexasTechSmith/BridgeInteractiveZillow"
+        }
+    }
+}
